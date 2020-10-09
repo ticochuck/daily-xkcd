@@ -12,7 +12,7 @@ export default function Home(props) {
       <style>{`
       .hello {
         font: 15px Helvetica, Ariel, sans-serif;
-        backdround: #eee;
+        backdround: #333;
         
       }
       `}
