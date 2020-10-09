@@ -5,7 +5,7 @@ export default function Footer(props) {
     const currentNum = props.comicNum;
     const nums = [];
 
-    for (let i = currentNum; i >= currentNum - 10; i--) {
+    for (let i = currentNum; i > currentNum - 10; i--) {
         nums.push(i)
     }
     
