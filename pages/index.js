@@ -4,17 +4,16 @@ import Footer from '../components/Footer'
 
 export default function Home(props) {
   return (
-    <div>
+    <div className='hello'>
       <Header />
       <h1>XKCD</h1>
       <h2>{props.comic.title}</h2>
       <img src={props.comic.img} alt={props.comic.alt}></img>
       <style>{`
       .hello {
-        font: 15px Helvitica, Ariel, sans-serif;
-        backdround: #eee;
-        text-align: center;
-        padding: 100px;
+        font: 15px Helvetica, Ariel, sans-serif;
+        backdround: #333;
+        
       }
       `}
       </style>
